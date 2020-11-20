@@ -22,7 +22,7 @@ jobs:
           chmod +x gha.R
           git config --local user.email "dario.meili@nadel.ethz.ch"
           git config --local user.name "dariomeili"
-          ./solutions/demo_gha.R
+          ./gha.R
       - run: |-
           git add unemployment_rate_ch.csv
           git commit -m 'automatic raw data update'
